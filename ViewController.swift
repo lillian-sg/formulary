@@ -74,12 +74,12 @@ class ViewController: UIViewController {
             phoneTextField.layer.borderColor = UIColor.clear.cgColor
         }
         
-//        if !emailTextField() {
-//            emailTextField.layer.borderWidth = 1
-//            emailTextField.layer.borderColor = UIColor.red.cgColor
-//        } else {
-//
-//        }
+        if !emailTextField {
+            emailTextField.layer.borderWidth = 1
+            emailTextField.layer.borderColor = UIColor.red.cgColor
+        } else {
+
+        }
     }
 
 }
